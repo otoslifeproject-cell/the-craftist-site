@@ -20,6 +20,15 @@
   </head>
 
   <body>
+    <div class="watermark-layer" aria-hidden="true">
+      <img class="wm-fixed wm-01" src="images/logo/the-craftist-logo.png" alt="" />
+      <img class="wm-fixed wm-02" src="images/logo/the-craftist-logo.png" alt="" />
+      <img class="wm-fixed wm-03" src="images/logo/the-craftist-logo.png" alt="" />
+      <img class="wm-fixed wm-04" src="images/logo/the-craftist-logo.png" alt="" />
+      <img class="wm-fixed wm-05" src="images/logo/the-craftist-logo.png" alt="" />
+      <img class="wm-fixed wm-06" src="images/logo/the-craftist-logo.png" alt="" />
+    </div>
+
     <header class="site-header">
       <a class="brand" href="#top" aria-label="The Craftist home">
         <img src="images/logo/the-craftist-logo.png" alt="The Craftist logo" />
@@ -27,6 +36,7 @@
       </a>
 
       <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
         <a href="#work">Work</a>
         <a href="#commissions">Commissions</a>
         <a href="#spaces">Spaces</a>
@@ -58,39 +68,32 @@
               <a class="button button-ghost" href="#gallery">View work</a>
             </div>
           </div>
-
-          <img
-            class="hero-mark hero-mark-large"
-            src="images/logo/the-craftist-logo.png"
-            alt=""
-            aria-hidden="true"
-          />
-          <img
-            class="hero-mark hero-mark-small"
-            src="images/logo/the-craftist-logo.png"
-            alt=""
-            aria-hidden="true"
-          />
         </div>
       </section>
 
       <section class="statement">
-        <img
-          class="section-watermark wm-statement-left"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <img
-          class="section-watermark wm-statement-right"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
         <p>
           Independent craftsmanship for collectors, brands and spaces that value
           <em>quality and detail.</em>
         </p>
+      </section>
+
+      <section id="about" class="split-section reverse about-section">
+        <figure class="split-image portrait-image">
+          <img src="images/about/artist-portrait.jpeg" alt="Portrait of the artist behind The Craftist" />
+        </figure>
+
+        <div class="split-copy glass-panel">
+          <p class="eyebrow">About</p>
+          <h2>The artist behind<br /><em>The Craftist.</em></h2>
+          <p>
+            A sculptor, maker and builder of distinctive worlds — from one-off commissioned pieces to immersive event and interior environments.
+          </p>
+          <p>
+            Handmade, thoughtful and quietly bold, every project is shaped around texture, feeling and story.
+          </p>
+          <a class="text-link" href="#contact">Work with the artist</a>
+        </div>
       </section>
 
       <section id="commissions" class="split-section">
@@ -98,8 +101,7 @@
           <p class="eyebrow">Commissions</p>
           <h2>Custom objects,<br /><em>made for you.</em></h2>
           <p>
-            One-off sculptural pieces, symbolic work and handbuilt details with character,
-            texture and meaning.
+            One-off sculptural pieces, symbolic work and handbuilt details with character, texture and meaning.
           </p>
           <a class="text-link" href="#contact">Start a commission</a>
         </div>
@@ -131,19 +133,6 @@
       </section>
 
       <section id="work" class="work-section">
-        <img
-          class="section-watermark wm-work-left"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <img
-          class="section-watermark wm-work-right"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-
         <div class="section-title">
           <p class="eyebrow">Selected Work</p>
           <h2>Quietly bold. Carefully made.</h2>
@@ -217,19 +206,6 @@
       </section>
 
       <section id="gallery" class="gallery-section">
-        <img
-          class="section-watermark wm-gallery-left"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <img
-          class="section-watermark wm-gallery-right"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-
         <div class="section-title gallery-title">
           <p class="eyebrow">Gallery</p>
           <h2>More of the world.<br /><em>More of the craft.</em></h2>
@@ -243,47 +219,36 @@
           <button class="gallery-item gallery-tall work-trigger" data-image="images/hero/hero-01.jpg" data-title="Hero Build">
             <img src="images/hero/hero-01.jpg" alt="Immersive build" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/hero/hero-02.jpg" data-title="Atmospheric Space">
             <img src="images/hero/hero-02.jpg" alt="Atmospheric space" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/immersive/immersive-01.jpg" data-title="Immersive Space">
             <img src="images/immersive/immersive-01.jpg" alt="Immersive work" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/immersive/immersive-04.jpg" data-title="Mayan Temple / Time Machine">
             <img src="images/immersive/immersive-04.jpg" alt="Immersive build detail" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/immersive/immersive-09.jpg" data-title="Event Build">
             <img src="images/immersive/immersive-09.jpg" alt="Event build" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/commissions/commission-03.jpg" data-title="Commission">
             <img src="images/commissions/commission-03.jpg" alt="Commission" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/commissions/commission-05.jpg" data-title="Commission Detail">
             <img src="images/commissions/commission-05.jpg" alt="Commission detail" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/commissions/commission-08.jpg" data-title="Carved Detail">
             <img src="images/commissions/commission-08.jpg" alt="Carved detail" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/spiritual/spiritual-02.jpg" data-title="Spiritual Piece">
             <img src="images/spiritual/spiritual-02.jpg" alt="Spiritual piece" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/spiritual/spiritual-06.jpg" data-title="Sculptural Detail">
             <img src="images/spiritual/spiritual-06.jpg" alt="Sculptural detail" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/process/process-01.jpg" data-title="Process">
             <img src="images/process/process-01.jpg" alt="Process" />
           </button>
-
           <button class="gallery-item work-trigger" data-image="images/process/process-05.jpg" data-title="Craft Process">
             <img src="images/process/process-05.jpg" alt="Craft process" />
           </button>
@@ -291,13 +256,6 @@
       </section>
 
       <section id="process" class="process-section">
-        <img
-          class="section-watermark wm-process"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-
         <div class="process-intro">
           <p class="eyebrow">Process</p>
           <h2>Rooted in craft,<br /><em>guided by thought.</em></h2>
@@ -332,25 +290,6 @@
       </section>
 
       <section id="contact" class="contact-section">
-        <img
-          class="section-watermark wm-contact-left"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <img
-          class="section-watermark wm-contact-right"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <img
-          class="section-watermark wm-contact-centre"
-          src="images/logo/the-craftist-logo.png"
-          alt=""
-          aria-hidden="true"
-        />
-
         <div class="contact-copy">
           <p class="eyebrow">Contact</p>
           <h2>Let’s create<br />something <em>meaningful.</em></h2>
@@ -366,6 +305,7 @@
     <footer class="footer">
       <p>© The Craftist</p>
       <div>
+        <a href="#about">About</a>
         <a href="#work">Work</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Enquire</a>
